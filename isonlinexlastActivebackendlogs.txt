@@ -1,0 +1,273 @@
+┌─[devmahnx@parrot]─[~/poafix]
+└──╼ $npm start
+
+> poafix-backend@1.0.0 start
+> node server.js
+
+🔄 Initializing models with collections: {
+  SERVICE_REQUESTS_COLLECTION: 'servicerequests',
+  CLIENT_REVIEWS_COLLECTION: 'clientReviews'
+}
+Models initialized: { timestamp: '2025-08-23T15:17:40.486Z' }
+Suspension checker cron job started
+Setting up booking routes
+WebSocket service initialized
+Routes initialized: /api/auth, /api/clients, /api/notifications, /api/areas, /api/location
+Mounted notifications route at: /api/notifications
+Setting up routes...
+✅ Mounted notifications route at: /api/notifications
+
+📡 MongoDB connection attempt 1/5
+✅ MongoDB connected successfully
+(node:84011) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:84011) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:84011) [MONGOOSE] Warning: Duplicate schema index on {"businessName":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:84011) [MONGOOSE] Warning: Duplicate schema index on {"email":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(node:84011) [MONGOOSE] Warning: Duplicate schema index on {"reference":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+
+🚀 Server is running and accessible at:
+- Local:            http://localhost:5000
+- Network IPs:      http://192.168.0.103:5000
+- Android Emulator: http://10.0.2.2:5000
+
+💾 MongoDB Status: Connected
+📡 MongoDB URL: mongodb://127.0.0.1:27017/home_service_db
+
+💾 MongoDB Status: Connected
+📡 MongoDB URL: mongodb://127.0.0.1:27017/home_service_db
+Registered Models: [
+  'Booking',            'User',
+  'Client',             'ServiceProvider',
+  'ServiceArea',        'Review',
+  'Admin',              'Job',
+  'Payment',            'Transaction',
+  'ClientReview',       'Certification',
+  'Availability',       'ServiceRequest',
+  'ActivityLog',        'Notification',
+  'Rating',             'Chat',
+  'Message',            'Suspension',
+  'BlockedClient',      'ProviderDocument',
+  'Provider',           'PlumbingService',
+  'PestControlService', 'PaintingService',
+  'CleaningService',    'ElectricalService',
+  'Area',               'Setting',
+  'Earning',            'Payout',
+  'ServiceHistory',     'RecurringBooking',
+  'ServicePackage'
+]
+[2025-08-23T15:17:47.420Z] POST /api/providers/search/advanced
+Request body: {
+  serviceType: 'plumbing',
+  location: { latitude: -1.2366317, longitude: 36.9346322 },
+  radius: 10
+}
+[2025-08-23T15:17:47.421Z] POST /api/providers/search/advanced
+Request body: {
+  serviceType: 'plumbing',
+  location: { latitude: -1.2366317, longitude: 36.9346322 },
+  radius: 10
+}
+[2025-08-23T15:17:47.422Z] POST /api/providers/search/advanced
+Request body: {
+  serviceType: 'plumbing',
+  location: { latitude: -1.2366317, longitude: 36.9346322 },
+  radius: 10
+}
+[2025-08-23T15:17:47.423Z] POST /api/providers/search/advanced { headers: { auth: 'Present' } }
+[Backend] /search/advanced called
+[Backend] Request headers: {
+  'user-agent': 'Dart/3.8 (dart:io)',
+  'content-type': 'application/json; charset=utf-8',
+  'accept-encoding': 'gzip',
+  'content-length': '98',
+  authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OWRkYTRlNTIyMjYyNjk0ZTM0ZDg3MyIsInVzZXJUeXBlIjoiY2xpZW50IiwiaWF0IjoxNzU1OTYyMDk0LCJleHAiOjE3NTYwNDg0OTR9.yld1oroKFB7678shSNNSZ3E_5_7l2Dwtzl5Q4BKeqcA',
+  host: '192.168.0.103:5000'
+}
+[Backend] Request body: {
+  serviceType: 'plumbing',
+  location: { latitude: -1.2366317, longitude: 36.9346322 },
+  radius: 10
+}
+[Backend] Response: {
+  "success": true,
+  "data": {
+    "providers": [
+      {
+        "_id": "68a8aa2f8c83419e23041047",
+        "name": "Real Plumber",
+        "email": "real.plumber@example.com",
+        "password": "$2a$12$RkrSQZP0Ox.ggz4A/3B7Iu9.Gi9e00TRPGlLNLZgAmOOUQLczHk2y",
+        "phoneNumber": "+254700000101",
+        "businessName": "Plumber Near Device",
+        "businessAddress": "Near Device",
+        "serviceOffered": [
+          {
+            "name": "Plumbing",
+            "description": "All plumbing services",
+            "price": "3500",
+            "duration": "2 hours",
+            "_id": "68a8aa2f8c83419e23041048"
+          }
+        ],
+        "isAvailable": true,
+        "isVerified": true,
+        "status": "verified",
+        "rating": 4.8,
+        "servicesCompleted": 0,
+        "experience": 5,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            36.9345,
+            -1.2367
+          ]
+        },
+        "totalRatings": 0,
+        "createdAt": "2025-08-22T17:34:39.345Z",
+        "certifications": [],
+        "reviews": [],
+        "availability": [],
+        "serviceType": "plumbing",
+        "currentSuspension": null,
+        "isSuspended": false,
+        "suspensionHistory": [],
+        "updatedAt": "2025-08-22T17:34:39.451Z",
+        "serviceAreas": [],
+        "__v": 0,
+        "distance": 16.561307331393866,
+        "averageRating": 0,
+        "totalReviews": 0
+      }
+    ],
+    "pagination": {
+      "currentPage": 1,
+      "totalPages": 1,
+      "totalProviders": 1,
+      "hasNext": false,
+      "hasPrev": false
+    },
+    "filters": {
+      "serviceType": "plumbing",
+      "location": {
+        "latitude": -1.2366317,
+        "longitude": 36.9346322
+      },
+      "radius": 10,
+      "minRating": 0,
+      "sortBy": "distance",
+      "sortOrder": "asc"
+    }
+  }
+}
+[2025-08-23T15:18:05.138Z] POST /api/bookings
+Request body: {
+  providerId: '68a8aa2f8c83419e23041047',
+  clientId: '689dda4e522262694e34d873',
+  serviceType: 'plumbing',
+  schedule: '2025-08-24T15:18:00.000Z',
+  description: '',
+  address: 'BANGKOK ',
+  status: 'pending',
+  location: { type: 'Point', coordinates: [ 36.9346322, -1.2366317 ] }
+}
+[2025-08-23T15:18:05.140Z] POST /api/bookings
+Request body: {
+  providerId: '68a8aa2f8c83419e23041047',
+  clientId: '689dda4e522262694e34d873',
+  serviceType: 'plumbing',
+  schedule: '2025-08-24T15:18:00.000Z',
+  description: '',
+  address: 'BANGKOK ',
+  status: 'pending',
+  location: { type: 'Point', coordinates: [ 36.9346322, -1.2366317 ] }
+}
+[2025-08-23T15:18:05.141Z] POST /api/bookings
+Request body: {
+  providerId: '68a8aa2f8c83419e23041047',
+  clientId: '689dda4e522262694e34d873',
+  serviceType: 'plumbing',
+  schedule: '2025-08-24T15:18:00.000Z',
+  description: '',
+  address: 'BANGKOK ',
+  status: 'pending',
+  location: { type: 'Point', coordinates: [ 36.9346322, -1.2366317 ] }
+}
+[2025-08-23T15:18:05.141Z] POST /api/bookings { headers: { auth: 'Present' } }
+Route accessed: { path: '/', method: 'POST', userId: undefined, userType: undefined }
+Auth headers: {
+  'user-agent': 'Dart/3.8 (dart:io)',
+  'content-type': 'application/json; charset=utf-8',
+  'accept-encoding': 'gzip',
+  'content-length': '265',
+  authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OWRkYTRlNTIyMjYyNjk0ZTM0ZDg3MyIsInVzZXJUeXBlIjoiY2xpZW50IiwiaWF0IjoxNzU1OTYyMDk0LCJleHAiOjE3NTYwNDg0OTR9.yld1oroKFB7678shSNNSZ3E_5_7l2Dwtzl5Q4BKeqcA',
+  host: '192.168.0.103:5000'
+}
+Auth successful: {
+  id: '689dda4e522262694e34d873',
+  type: 'client',
+  userId: '689dda4e522262694e34d873',
+  userType: 'client'
+}
+Parsed scheduleDate: 2025-08-24T15:18:00.000Z from scheduledDate: undefined scheduledTime: undefined
+Attempting to save booking: {
+  serviceType: 'plumbing',
+  location: { type: 'Point', coordinates: [ 36.9346322, -1.2366317 ] },
+  notes: '',
+  status: 'pending',
+  payment: { status: 'pending', method: 'mpesa' },
+  _id: new ObjectId('68a9dbadc572aaf717fae82f'),
+  services: []
+}
+Booking creation error: Error: Booking validation failed: scheduledDate: Path `scheduledDate` is required., client: Path `client` is required., provider: Path `provider` is required.
+    at ValidationError.inspect (/home/devmahnx/poafix/node_modules/mongoose/lib/error/validation.js:52:26)
+    at formatValue (node:internal/util/inspect:829:19)
+    at inspect (node:internal/util/inspect:372:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2325:40)
+    at formatWithOptions (node:internal/util/inspect:2187:10)
+    at console.value (node:internal/console/constructor:350:14)
+    at console.warn (node:internal/console/constructor:383:61)
+    at file:///home/devmahnx/poafix/routes/booking.routes.js:317:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  errors: {
+    scheduledDate: ValidatorError: Path `scheduledDate` is required.
+        at validate (/home/devmahnx/poafix/node_modules/mongoose/lib/schemaType.js:1404:13)
+        at SchemaType.doValidate (/home/devmahnx/poafix/node_modules/mongoose/lib/schemaType.js:1388:7)
+        at /home/devmahnx/poafix/node_modules/mongoose/lib/document.js:3082:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'scheduledDate',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    },
+    client: ValidatorError: Path `client` is required.
+        at validate (/home/devmahnx/poafix/node_modules/mongoose/lib/schemaType.js:1404:13)
+        at SchemaType.doValidate (/home/devmahnx/poafix/node_modules/mongoose/lib/schemaType.js:1388:7)
+        at /home/devmahnx/poafix/node_modules/mongoose/lib/document.js:3082:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'client',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    },
+    provider: ValidatorError: Path `provider` is required.
+        at validate (/home/devmahnx/poafix/node_modules/mongoose/lib/schemaType.js:1404:13)
+        at SchemaType.doValidate (/home/devmahnx/poafix/node_modules/mongoose/lib/schemaType.js:1388:7)
+        at /home/devmahnx/poafix/node_modules/mongoose/lib/document.js:3082:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'provider',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose#validatorError)]: true
+    }
+  },
+  _message: 'Booking validation failed'
+}
+
+

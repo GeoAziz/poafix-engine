@@ -1,0 +1,218 @@
+Launching lib/main.dart on CPH2591 (wireless) in debug mode...
+Running Gradle task 'assembleDebug'...                             24.2s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...          88.6s
+I/flutter ( 2984): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(61)] Using the Impeller rendering backend (Vulkan).
+D/FlutterGeolocator( 2984): Attaching Geolocator to activity
+I/flutter ( 2984): 🚀 Initializing PoaFix App...
+I/flutter ( 2984): [NetworkService] Singleton factory called. Returning instance.
+I/flutter ( 2984): [NetworkService] Singleton instance constructed.
+I/flutter ( 2984): [NetworkService] Loaded persisted baseUrl: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Persisted baseUrl in SharedPreferences: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Singleton factory called. Returning instance.
+I/flutter ( 2984): [main.dart] Persisting loaded baseUrl at startup: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Singleton factory called. Returning instance.
+I/flutter ( 2984): [NetworkService] Setting baseUrl: http://192.168.0.103:5000
+I/flutter ( 2984): [main.dart] Awaiting network discovery...
+I/flutter ( 2984): [NetworkService] Persisted baseUrl in SharedPreferences: http://192.168.0.103:5000
+I/flutter ( 2984): 🔄 Initializing network discovery...
+I/flutter ( 2984): 🌐 Base URL set to: http://localhost:5000
+I/flutter ( 2984): [ApiConfig] initialize complete. currentBaseUrl=http://localhost:5000
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): [main.dart] Persisting discovered baseUrl after network discovery: http://localhost:5000
+I/flutter ( 2984): [NetworkService] Singleton factory called. Returning instance.
+I/flutter ( 2984): [NetworkService] Setting baseUrl: http://localhost:5000
+I/flutter ( 2984): [main.dart] Network discovery complete.
+I/flutter ( 2984): [NetworkService] Singleton factory called. Returning instance.
+I/flutter ( 2984): [NetworkService] Persisted baseUrl in SharedPreferences: http://localhost:5000
+I/flutter ( 2984): [NetworkService] Persisted baseUrl: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Persisted baseUrl: http://localhost:5000
+D/FlutterGeolocator( 2984): Creating service.
+D/FlutterGeolocator( 2984): Binding to location service.
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): 🌐 Network Status: {connectivity: [ConnectivityResult.wifi], workingUrl: http://localhost:5000, lastTested: 2025-08-27T13:48:42.199543, testedUrls: [http://192.168.0.103:5000, http://localhost:5000, http://localhost:5000, http://127.0.0.1:5000, http://192.168.1.103:5000, http://192.168.1.100:5000, http://192.168.0.100:5000, http://192.168.0.102:5000], platform: android, isPhysicalDevice: true}
+Syncing files to device CPH2591 (wireless)...                      215ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on CPH2591 (wireless) is available at: http://127.0.0.1:38473/mi3elWq-77c=/
+I/Choreographer( 2984): Skipped 182 frames!  The application may be doing too much work on its main thread.
+The Flutter DevTools debugger and profiler on CPH2591 (wireless) is available at:
+http://127.0.0.1:9101?uri=http://127.0.0.1:38473/mi3elWq-77c=/
+W/VRI[MainActivity]( 2984): performTraversals: cancelAndRedraw, mLastPerformTraversalsSkipDrawReasonpredraw_io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2
+D/FlutterGeolocator( 2984): Geolocator foreground service connected
+D/FlutterGeolocator( 2984): Initializing Geolocator services
+D/FlutterGeolocator( 2984): Flutter engine connected. Connected engine count 1
+D/WindowLayoutComponentImpl( 2984): app addWindowLayoutInfoListener activity:com.example.poafix.MainActivity@ebfd237 consumer :androidx.window.layout.adapter.extensions.MulticastConsumer@445bae5
+D/ViewRootImplExtImpl( 2984): wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=360, relayoutAsync=false, flags=0, newFlags=23592960, residentWS=false, title=com.example.poafix/com.example.poafix.MainActivity
+D/VRI[MainActivity]( 2984): relayoutWindow result, sizeChanged:false, surfaceControlChanged:false, transformHintChanged:false, mSurfaceSize:Point(720, 1612), mLastSurfaceSize:Point(720, 1612), mWidth:720, mHeight:1612, requestedWidth:720, requestedHeight:1612, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][720,1612] display=[0,0][720,1612] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+W/VRI[MainActivity]( 2984): updateBlastSurfaceIfNeeded, surfaceSize:Point(720, 1612), lastSurfaceSize:Point(720, 1612), format:-3, blastBufferQueue:android.graphics.BLASTBufferQueue@5cd806b
+W/VRI[MainActivity]( 2984): performTraversals: cancelAndRedraw, mLastPerformTraversalsSkipDrawReasonpredraw_io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2
+W/VRI[MainActivity]( 2984): performTraversals: cancelAndRedraw, mLastPerformTraversalsSkipDrawReasonpredraw_io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2
+W/VRI[MainActivity]( 2984): performTraversals: cancelAndRedraw, mLastPerformTraversalsSkipDrawReasonpredraw_io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2
+W/VRI[MainActivity]( 2984): performTraversals: cancelAndRedraw, mLastPerformTraversalsSkipDrawReasonpredraw_io.flutter.embedding.android.FlutterActivityAndFragmentDelegate$2
+I/GrallocExtra( 2984): gralloc_extra_query:is_SW3D 0
+I/GrallocExtra( 2984): gralloc_extra_query:is_SW3D 0
+D/BLASTBufferQueue( 2984): [SurfaceView[com.example.poafix/com.example.poafix.MainActivity]#1](f:0,a:1) acquireNextBufferLocked size=720x1524 mFrameNumber=1 applyTransaction=true mTimestamp=809710784621415(auto) mPendingTransactions.size=0 graphicBufferId=12816182411274 transform=0
+W/libc    ( 2984): Access denied finding property "ro.vendor.mbrain.mode"
+D/.example.poafix( 2984): Can't load libmbrainSDK
+D/SurfaceView( 2984): 97692670 handleSyncNoBuffer
+D/SurfaceView( 2984): 97692670 finishedDrawing
+D/SurfaceView( 2984): 97692670 performDrawFinished mAttachedToWindow true
+I/SurfaceControl( 2984):  setExtendedRangeBrightness sc=Surface(name=com.example.poafix/com.example.poafix.MainActivity)/@0xfdd8786,currentBufferRatio=1.0,desiredRatio=1.0
+D/SurfaceView( 2984): 97692670 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128
+D/SurfaceView( 2984): 97692670 clearSurfaceViewPort mCornerRadius 0.0
+D/BLASTBufferQueue( 2984): [VRI[MainActivity]#0](f:0,a:1) acquireNextBufferLocked size=720x1612 mFrameNumber=1 applyTransaction=true mTimestamp=809711302405030(auto) mPendingTransactions.size=0 graphicBufferId=12816182411281 transform=0
+D/VRI[MainActivity]( 2984): Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+D/VRI[MainActivity]( 2984): draw finished. seqId=0
+D/VRI[MainActivity]( 2984): onFocusEvent true
+D/OplusScrollToTopManager( 2984): com.example.poafix/com.example.poafix.MainActivity,This com.android.internal.policy.DecorView{92a6aa1 V.E...... R....... 0,0-720,1612 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to true
+D/ProfileInstaller( 2984): Installing profile for com.example.poafix
+I/flutter ( 2984): Raw credentials from storage:
+I/flutter ( 2984): Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OWRkYTRlNTIyMjYyNjk0ZTM0ZDg3MyIsInVzZXJUeXBlIjoiY2xpZW50IiwiaWF0IjoxNzU2MjE5Njg5LCJleHAiOjE3NTYzMDYwODl9.nyDxwWFQ-ugdPP8m_o2nCfS2gvMOMnsq6AghfvoZZf8
+I/flutter ( 2984): UserID: 689dda4e522262694e34d873
+I/flutter ( 2984): UserType: client
+I/flutter ( 2984): [AppLifecycleHandler] currentBaseUrl after wait: http://localhost:5000
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/.example.poafix( 2984): Compiler allocated 6951KB to compile void android.view.ViewRootImpl.performTraversals()
+I/Quality ( 2984): GetResourcesInfo:104466462,/data/app/~~sOl6a4aLCEXetT0fT8bjJg==/com.google.android.marvin.talkback-9WsSmdxOYpXCl7RIHt61hQ==/base.apk
+I/Quality ( 2984): GetResourcesInfo:240571462,/data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/base.apk
+I/Quality ( 2984): GetResourcesInfo:248304538,/data/app/OppoNote2/com.coloros.note_154050006.apk
+I/Quality ( 2984): GetResourcesInfo:74459077,/data/app/~~1ImF5SIX4-EmC-Mp71Tu1w==/com.openai.chatgpt-ABypWhdcu-HK5qr5f-rkVQ==/base.apk
+I/flutter ( 2984): ❌ Exception updating last active: ClientException with SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = localhost, port = 45520, uri=http://localhost:5000/api/clients/update-last-active
+D/OplusSystemUINavigationGestureExtImpl( 2984): regionString = null
+D/OplusSystemUINavigationGestureExtImpl( 2984): regionString = null
+D/OplusInputMethodManagerInternal( 2984): get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@45c10d4
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+I/Choreographer( 2984): Skipped 51 frames!  The application may be doing too much work on its main thread.
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+I/flutter ( 2984): API Configuration:
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): Base URL: http://localhost:5000
+I/flutter ( 2984): 🔧 ApiConfig Info:
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): 📍 Base URL: http://localhost:5000
+I/flutter ( 2984): ⏱️ Timeout: 30s
+I/flutter ( 2984): 🔄 Max retries: 3
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): Login endpoint: http://localhost:5000/auth/login
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+W/WindowOnBackDispatcher( 2984): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 2984): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+I/ImeTracker( 2984): com.example.poafix:79d5a38f: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 2984): showSoftInput() view=io.flutter.embedding.android.FlutterView{c949eb1 VFE...... .F....ID 0,0-720,1524 #1 aid=1073741824 alpha=1.0 viewInfo = } flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor( 2984): The input method toggled cursor monitoring on
+D/callGcSupression( 2984): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity]( 2984): handleResized abandoned!
+D/callGcSupression( 2984): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity]( 2984): handleResized abandoned!
+D/InsetsController( 2984): show(ime(), fromIme=true)
+W/InteractionJankMonitor( 2984): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.poafix
+D/callGcSupression( 2984): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity]( 2984): handleResized abandoned!
+I/ImeTracker( 2984): com.example.poafix:79d5a38f: onShown
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+I/ImeTracker( 2984): com.example.poafix:4329b9a0: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InputMethodManager( 2984): showSoftInput() view=io.flutter.embedding.android.FlutterView{c949eb1 VFE...... .F...... 0,0-720,1524 #1 aid=1073741824 alpha=1.0 viewInfo = } flags=0 reason=SHOW_SOFT_INPUT
+D/InputConnectionAdaptor( 2984): The input method toggled cursor monitoring on
+D/InputConnectionAdaptor( 2984): The input method toggled cursor monitoring off
+D/InputConnectionAdaptor( 2984): The input method toggled cursor monitoring on
+D/InsetsController( 2984): show(ime(), fromIme=true)
+I/ImeTracker( 2984): com.example.poafix:fbc5b81: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 2984): show(ime(), fromIme=true)
+I/ImeTracker( 2984): com.example.poafix:4329b9a0: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/callGcSupression( 2984): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity]( 2984): handleResized abandoned!
+I/ScrollIdentify( 2984): on fling
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~sOl6a4aLCEXetT0fT8bjJg==/com.google.android.marvin.talkback-9WsSmdxOYpXCl7RIHt61hQ==/base.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~sOl6a4aLCEXetT0fT8bjJg==/com.google.android.marvin.talkback-9WsSmdxOYpXCl7RIHt61hQ==/split_config.arm64_v8a.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/base.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/split_config.arm64_v8a.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/split_config.en.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/split_config.xhdpi.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/split_vassonic.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/split_vassonic.config.xhdpi.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/OppoNote2/com.coloros.note_154050006.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~1ImF5SIX4-EmC-Mp71Tu1w==/com.openai.chatgpt-ABypWhdcu-HK5qr5f-rkVQ==/base.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~1ImF5SIX4-EmC-Mp71Tu1w==/com.openai.chatgpt-ABypWhdcu-HK5qr5f-rkVQ==/split_config.arm64_v8a.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~1ImF5SIX4-EmC-Mp71Tu1w==/com.openai.chatgpt-ABypWhdcu-HK5qr5f-rkVQ==/split_config.en.apk' with 1 weak references
+W/.example.poafix( 2984): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~1ImF5SIX4-EmC-Mp71Tu1w==/com.openai.chatgpt-ABypWhdcu-HK5qr5f-rkVQ==/split_config.xhdpi.apk' with 1 weak references
+D/ViewRootImplExtImpl( 2984): the up motion event handled by client, just return
+I/flutter ( 2984): Attempting login with alice@example.com
+I/flutter ( 2984): 🔍 Attempting login for: alice@example.com
+I/flutter ( 2984): [NetworkService] Singleton factory called. Returning instance.
+I/flutter ( 2984): [NetworkService] baseUrl accessed from: ApiConfig.baseUrl, value: http://localhost:5000
+I/flutter ( 2984): [ApiConfig.baseUrl] Using discovered baseUrl: http://localhost:5000
+I/flutter ( 2984): 🌐 Current base URL: http://localhost:5000
+I/flutter ( 2984): 🚀 Making GET request to: http://localhost:5000/api/debug
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): ❌ Request failed: ClientException with SocketException: Connection refused (OS Error: Connection refused, errno = 111), address = localhost, port = 59850, uri=http://localhost:5000/api/debug
+I/flutter ( 2984): 🔍 Starting backend URL discovery...
+I/flutter ( 2984): 🌐 Network type: ConnectivityResult.wifi
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/flutter ( 2984): 🧪 Testing: http://192.168.0.103:5000
+I/flutter ( 2984): 🔄 Testing URL: http://192.168.0.103:5000
+I/flutter ( 2984): 📡 Response from http://192.168.0.103:5000: 200
+I/flutter ( 2984): [NetworkService] Discovered working baseUrl: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Assigned _workingBaseUrl: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Persisted baseUrl: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Persisted discovered baseUrl: http://192.168.0.103:5000
+I/flutter ( 2984): [NetworkService] Persisted baseUrl in SharedPreferences: http://192.168.0.103:5000
+I/flutter ( 2984): ✅ Found working backend: http://192.168.0.103:5000
+I/flutter ( 2984): ✅ Auth endpoint /api/clients/login exists (status: 401)
+I/flutter ( 2984): ✅ Authentication endpoints verified for: http://192.168.0.103:5000
+I/flutter ( 2984): 🚀 Making GET request to: http://192.168.0.103:5000/api/debug
+I/flutter ( 2984): 📡 Response status: 200
+I/flutter ( 2984): 🔄 Trying provider login...
+I/flutter ( 2984): 🚀 Making POST request to: http://192.168.0.103:5000/api/providers/login
+I/flutter ( 2984): 📡 Response status: 401
+I/flutter ( 2984): 📡 Provider login status: 401
+I/flutter ( 2984): 📡 Provider response: {"success":false,"message":"Login failed","error":"Invalid credentials"}...
+I/flutter ( 2984): 🔄 Trying client login...
+I/flutter ( 2984): 🚀 Making POST request to: http://192.168.0.103:5000/api/clients/login
+I/flutter ( 2984): 📡 Response status: 200
+I/flutter ( 2984): 📡 Client login status: 200
+I/flutter ( 2984): 📡 Client response: {"success":true,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4OWRkYTRlNTIyMjYyNjk0ZTM0ZDg3MyIsInVzZXJUeXBlIjoiY2xpZW50IiwiaWF0IjoxNzU2MjkxNzQyLCJleHAiOjE3NTYzNzgxNDJ9.j-1nUh2cRLmYELt7GDapd...
+I/flutter ( 2984): Saving auth data for user: {id: 689dda4e522262694e34d873, name: Alice Johnson, email: alice@example.com, phoneNumber: +254701234567}
+I/flutter ( 2984): Auth Data Saved Successfully:
+I/flutter ( 2984): - Token: eyJhbGciOi...
+I/flutter ( 2984): - UserType: client
+I/flutter ( 2984): - UserId: 689dda4e522262694e34d873
+I/flutter ( 2984): - Name: Alice Johnson
+I/flutter ( 2984): Saving auth data for user: {id: 689dda4e522262694e34d873, name: Alice Johnson, email: alice@example.com, phoneNumber: +254701234567}
+I/flutter ( 2984): Auth Data Saved Successfully:
+I/flutter ( 2984): - Token: eyJhbGciOi...
+I/flutter ( 2984): - UserType: client
+I/flutter ( 2984): - UserId: 689dda4e522262694e34d873
+I/flutter ( 2984): - Name: Alice Johnson
+I/flutter ( 2984): [ApiConfig] baseUrl accessed: http://localhost:5000
+I/Quality ( 2984): GetResourcesInfo:63924538,/data/app/~~VZky4pyhA7gL0pGsxQJOKw==/cn.wps.moffice_eng-7hxjbmT9_1miP87RKc6rRw==/base.apk
+I/Quality ( 2984): GetResourcesInfo:80513231,/data/app/~~sOl6a4aLCEXetT0fT8bjJg==/com.google.android.marvin.talkback-9WsSmdxOYpXCl7RIHt61hQ==/base.apk
+I/Quality ( 2984): GetResourcesInfo:79866846,/data/app/OppoNote2/com.coloros.note_154050006.apk
+W/WindowOnBackDispatcher( 2984): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 2984): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 2984): com.example.poafix:eb23a9e5: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InputConnectionAdaptor( 2984): The input method toggled cursor monitoring off
+D/InsetsController( 2984): hide(ime(), fromIme=true)
+D/callGcSupression( 2984): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity]( 2984): handleResized abandoned!
+I/ImeTracker( 2984): com.example.poafix:90f377a0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+I/ImeTracker( 2984): com.example.poafix:eb23a9e5: onHidden
+D/callGcSupression( 2984): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity]( 2984): handleResized abandoned!
+D/callGcSupression( 2984): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity]( 2984): handleResized abandoned!
+
+
